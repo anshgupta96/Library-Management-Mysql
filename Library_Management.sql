@@ -144,6 +144,6 @@ call books(); -- Use this to view all the available books.
 
 call Transactions(); -- Use this to view all the transactions.
 
-call issue_book(7,111); -- use this to usse a book (user_Id, book_Id)
+call issue_book(7,111); -- use this to issue a book (user_Id, book_Id)
 
-call return_book(10,'2024-9-30'); -- use this to calculate find amount (Transaction Id, Return_date)
+call return_book(10,'2024-9-30'); -- use this to calculate fine amount (Transaction Id, Return_date)
